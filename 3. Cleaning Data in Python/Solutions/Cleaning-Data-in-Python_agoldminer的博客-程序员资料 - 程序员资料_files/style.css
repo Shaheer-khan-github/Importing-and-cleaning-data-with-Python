@@ -1,0 +1,366 @@
+body {
+    font-family: open sans, sans-serif;
+    line-height: 30px
+}
+
+.head-line {
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 30px
+}
+
+#header {
+    background-color: #0c739b
+}
+
+div#article_content img {
+    max-width: 100%;
+    height: auto;
+    width: auto \9;
+    cursor: zoom-in
+}
+
+.clearfix {
+    display: block
+}
+
+.loop-wrap {
+    margin-bottom: 1.25rem;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 1.25rem
+}
+
+.loop-thumb {
+    float: left;
+    margin-right: 20px
+}
+
+.loop-data {
+    margin-bottom: .625rem
+}
+
+header.loop-data h3 {
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden
+}
+
+.mh-excerpt a {
+    text-decoration: none
+}
+
+.logo-div {
+    background-color: rgba(0, 82, 114, .51);
+    line-height: 23px
+}
+
+.logo-inner {
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    line-height: 23px
+}
+
+.logo-name a, .logo-name a:hover {
+    text-decoration: none;
+    color: #fff;
+    line-height: 23px
+}
+
+.logo-inner span {
+    display: block
+}
+
+.logo-inner small {
+    font-size: 12px;
+    color: #fff
+}
+
+.links-home a, .links-home a:hover {
+    color: #93d1ea;
+    text-decoration: none;
+    font-size: 16px
+}
+
+.header-text-top {
+    color: #a9defc;
+    padding: 50px 30px 40px;
+    line-height: 25px
+}
+
+.header-text-top a, .header-text-top a:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.copyrights {
+    text-indent: -9999px;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    overflow: hidden
+}
+
+.info-sec {
+    background-color: #f2f2f2;
+    padding: 20px 50px 10px;
+    color: #a5a5a5
+}
+
+.social-link a, .social-link a:hover {
+    text-decoration: none;
+    margin-right: 10px
+}
+
+.div-one {
+    background-color: #fff;
+    height: 500px;
+    text-align: center
+}
+
+.div-one h2 {
+    color: #0c739b;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 100px;
+    font-family: expletus sans, cursive;
+    font-size: 100px
+}
+
+.div-one h2 i {
+    color: #000
+}
+
+.div-two {
+    background-color: #0081d0;
+    height: 500px;
+    text-align: center
+}
+
+.h2-one {
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 120px;
+    font-family: expletus sans, cursive;
+    font-size: 50px
+}
+
+.h2-two {
+    color: #fff;
+    font-weight: 900;
+    text-align: center;
+    font-family: expletus sans, cursive;
+    font-size: 40px
+}
+
+.div-two a, .div-two a:hover {
+    border-color: #fff;
+    background-color: transparent
+}
+
+.footer-sec {
+    background-color: #0c739b;
+    margin-top: 50px
+}
+
+.foo-inner {
+    text-align: center;
+    padding: 20px 30px;
+    color: #fff
+}
+
+#port-folio {
+    padding-top: 10px;
+    min-height: 550px
+}
+
+.portfolio-item {
+    border: 1px solid #bbb;
+    margin: 25px 5px;
+    display: inline-block
+}
+
+.portfolio-txt {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #0c739b;
+    text-decoration: none
+}
+
+.portfolio-item img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(.9, .9);
+    -ms-transform: scale(.9, .9);
+    transform: scale(.9, .9);
+    transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    z-index: 1
+}
+
+#port-folio a:hover {
+    text-decoration: none
+}
+
+ul#filters {
+    padding: 0
+}
+
+#filters {
+    margin: 3% 0;
+    padding: 0;
+    list-style: none;
+    text-align: center
+}
+
+#filters .active {
+    color: #000
+}
+
+#filters li {
+    display: -webkit-inline-box;
+    background-color: #bbb;
+    color: #fff;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    cursor: pointer
+}
+
+#port-folio .portfolio-item {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    display: none
+}
+
+#con_all {
+    clear: both;
+    padding: 5px 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center
+}
+
+#con_da1 {
+    padding: 0;
+    display: inline-block;
+    width: 336px;
+    margin: 0;
+    overflow: hidden;
+    text-align: left
+}
+
+#con_da2 {
+    padding: 0 0 0 60px;
+    display: inline-block;
+    margin: 0;
+    overflow: hidden;
+    text-align: left;
+    vertical-align: top
+}
+
+.loading {
+    position: absolute;
+    display: block;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transform-origin: 50% 50%;
+    white-space: nowrap;
+    font-size: 0
+}
+
+.loading > span {
+    margin: 2px;
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    animation-name: blink;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .2);
+    border-image-repeat: repeat
+}
+
+.lazy-img.aligncenter {
+    margin: .5em auto;
+    display: block
+}
+
+.lazy-img {
+    position: relative
+}
+
+.img-responsive {
+    max-width: 100%
+}
+
+.lazy-img img {
+    margin: 0 !important;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1px;
+    height: 1px;
+    background: #f5f5f5
+}
+
+.lazy-img .loading-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1px;
+    height: 1px;
+    background: #f5f5f5
+}
+
+.loading > span:nth-child(2) {
+    animation-delay: .2s
+}
+
+.loading > span:nth-child(3) {
+    animation-delay: .4s
+}
+
+@keyframes blink {
+    0% {
+        opacity: .2
+    }
+    20% {
+        opacity: 1
+    }
+    100% {
+        opacity: .2
+    }
+}
+
+.dotloading {
+    background-image: url(../images/loadingdots.gif);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center
+}
